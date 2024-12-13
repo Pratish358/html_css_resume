@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: "Roboto", sans-serif;;
+}
+
+body {
+    background-color: black;
+}
+
+.resume-page{
+    max-width: 800px;
+    min-height: 800px;
+    margin: 0 auto;
+    background-color: white;
+}
+.resume-page header{
+    padding: 20px 50px;
+    padding-top: 50px;
+    background-color: rgb(49, 84, 136);
+    width: 800px;
+    height: 300px;
+    color: white;
+    display: flex;    
+    justify-content: space-between;
+    gap: 20px;
+}
+.header-content{
+    width: 70%;
+}
+h1.name{
+    font-size: 45px;
+}
+.role{
+    font-size: 22px;
+}
+.intro{
+    margin: 20px 0;
+    font-size: medium;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.image{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    width: 90%;
+    height: 95%;
+    border: 2px solid white;
+}
+.work{
+    margin: 20px 0;
+    width: 100%;
+}
+.work-head{
+    width: 100%;
+}
+h2.w-title{
+    color: white;
+    background-color: rgb(71, 109, 165);
+    width: 300px;
+    display: inline-block;
+    padding-left: 40px;
+}
+.line{
+    width: 97%;
+    border-bottom: 2px solid rgb(71, 109, 165)
+}
+.expirence{
+    width: 100%;
+    padding: 10px 0;
+    padding-right: 60px;
+}
+.expirenced{
+    width: 100%;
+    padding: 10px 0;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+.job{
+    padding: 10px 0;
+    padding-right: 10px;
+    width: 100%;
+}
+.job-title{
+    display: flex;
+    gap: 20px;
+}
+.j-title{
+    width: 153px;
+    text-align: right;
+}
+.des{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.date{
+    width: 58%;
+    text-align: right;
+}
+.about{
+    display: inline-block;
+}
+.communication{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px; 
+}
+.comm{
+    /* padding: 0 20px; */
+    padding-left: 13px;
+}
